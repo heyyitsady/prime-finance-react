@@ -11,11 +11,18 @@ const Navbar = () => {
     <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">PrimeFinance</h1>
       <ul className="hidden md:flex">
-        <li className="p-4">Home</li>
-        <li className="p-4">Company</li>
-        <li className="p-4">Resources</li>
-        <li className="p-4">About</li>
-        <li className="p-4">Contact</li>
+        <li className="p-4">
+          <a href="#home">Home</a>
+        </li>
+        <li className="p-4">
+          <a href="#analytics">Analytics</a>
+        </li>
+        <li className="p-4">
+          <a href="#pricing">Pricing</a>
+        </li>
+        <li className="p-4">
+          <a href="#newsletter">Newsletter</a>
+        </li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -31,11 +38,26 @@ const Navbar = () => {
           PrimeFinance
         </h1>
         <ul className="uppercase p-4">
-          <li className="p-4 border-b border-b-gray-600">Home</li>
-          <li className="p-4 border-b border-b-gray-600">Company</li>
-          <li className="p-4 border-b border-b-gray-600">Resources</li>
-          <li className="p-4 border-b border-b-gray-600">About</li>
-          <li className="p-4">Contact</li>
+          <li className="p-4">
+            <a onClick={handleNav} href="#home">
+              Home
+            </a>
+          </li>
+          <li className="p-4">
+            <a onClick={handleNav} href="#analytics">
+              Analytics
+            </a>
+          </li>
+          <li className="p-4">
+            <a onClick={handleNav} href="#pricing">
+              Pricing
+            </a>
+          </li>
+          <li className="p-4">
+            <a onClick={handleNav} href="#newsletter">
+              Newsletter
+            </a>
+          </li>
         </ul>
       </div>
     </div>
