@@ -38,7 +38,7 @@ const details = [
 
 const Cards = () => {
   return (
-    <div className="w-full py-[10rem] px-4 bg-white">
+    <div id="pricing" className="w-full py-[10rem] px-4 bg-white">
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         {details.map(({ id, ...otherDetails }) => (
           <Card key={id} {...otherDetails} />
