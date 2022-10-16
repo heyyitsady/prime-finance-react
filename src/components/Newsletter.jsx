@@ -23,7 +23,14 @@ const Newsletter = () => {
           </div>
           <p>
             We care about the protection of your data. Read our
-            <a href="/"> Privacy Policy</a>.
+            <a
+              className="underline decoration-[#00df9a] hover:bg-[#00df9a] duration-300"
+              href="/"
+            >
+              {" "}
+              Privacy Policy
+            </a>
+            .
           </p>
         </div>
       </div>
