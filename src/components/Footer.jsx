@@ -33,24 +33,16 @@ const Footer = () => {
           <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Analytics
-              </a>
+              <button className="hover:text-[#00df9a]">Analytics</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Marketing
-              </a>
+              <button className="hover:text-[#00df9a]">Marketing</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Commerce
-              </a>
+              <button className="hover:text-[#00df9a]">Commerce</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Insights
-              </a>
+              <button className="hover:text-[#00df9a]">Insights</button>
             </li>
           </ul>
         </div>
@@ -58,24 +50,18 @@ const Footer = () => {
           <h6 className="font-medium text-gray-400">Support</h6>
           <ul>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Pricing
-              </a>
+              <button className="hover:text-[#00df9a]">Pricing</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Documentation
-              </a>
+              <button className="hover:text-[#00df9a]">Documentation</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Guides
-              </a>
+              <button className="hover:text-[#00df9a]">Guides</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="">
+              <button className="hover:text-[#00df9a]" href="">
                 API Status
-              </a>
+              </button>
             </li>
           </ul>
         </div>
@@ -83,29 +69,19 @@ const Footer = () => {
           <h6 className="font-medium text-gray-400">Company</h6>
           <ul>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                About
-              </a>
+              <button className="hover:text-[#00df9a]">About</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Blog
-              </a>
+              <button className="hover:text-[#00df9a]">Blog</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Press
-              </a>
+              <button className="hover:text-[#00df9a]">Press</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Jobs
-              </a>
+              <button className="hover:text-[#00df9a]">Jobs</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Careers
-              </a>
+              <button className="hover:text-[#00df9a]">Careers</button>
             </li>
           </ul>
         </div>
@@ -113,19 +89,13 @@ const Footer = () => {
           <h6 className="font-medium text-gray-400">Legal</h6>
           <ul>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Claim
-              </a>
+              <button className="hover:text-[#00df9a]">Claim</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Policy
-              </a>
+              <button className="hover:text-[#00df9a]">Policy</button>
             </li>
             <li className="py-2 text-sm">
-              <a className="hover:text-[#00df9a]" href="/">
-                Terms
-              </a>
+              <button className="hover:text-[#00df9a]">Terms</button>
             </li>
           </ul>
         </div>
