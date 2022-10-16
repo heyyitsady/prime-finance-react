@@ -1,5 +1,5 @@
 import React from "react";
-import Typed from "react-typed";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -15,12 +15,12 @@ const Hero = () => {
           <p className="text-xl font-bold py-4 sm:text-4xl md:text-5xl">
             Fast, flexible financing for
           </p>
-          <Typed
+          <TypeAnimation
             className="text-xl font-bold sm:text-4xl md:text-5xl text-gray-400"
-            strings={["BTB", "BTC", "SAAS"]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
+            sequence={["BTB", 1000, "BTC", 1000, "SAAS", 1000]}
+            wrapper="span"
+            repeat={Infinity}
+            speed={2}
           />
         </div>
         <p className="text-xl font-bold text-gray-500 md:text-2xl">
