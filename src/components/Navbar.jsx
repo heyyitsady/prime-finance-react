@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-  const handleNav = () => {
+  const handleMobileNav = () => {
     setNav(!nav);
   };
   return (
@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#newsletter">Newsletter</a>
         </li>
       </ul>
-      <div onClick={handleNav} className="block md:hidden">
+      <div onClick={handleMobileNav} className="block md:hidden">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
       <div
@@ -39,22 +39,22 @@ const Navbar = () => {
         </h1>
         <ul className="uppercase p-4">
           <li className="p-4">
-            <a onClick={handleNav} href="#home">
+            <a onClick={handleMobileNav} href="#home">
               Home
             </a>
           </li>
           <li className="p-4">
-            <a onClick={handleNav} href="#analytics">
+            <a onClick={handleMobileNav} href="#analytics">
               Analytics
             </a>
           </li>
           <li className="p-4">
-            <a onClick={handleNav} href="#pricing">
+            <a onClick={handleMobileNav} href="#pricing">
               Pricing
             </a>
           </li>
           <li className="p-4">
-            <a onClick={handleNav} href="#newsletter">
+            <a onClick={handleMobileNav} href="#newsletter">
               Newsletter
             </a>
           </li>
